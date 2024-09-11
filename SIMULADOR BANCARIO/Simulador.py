@@ -102,8 +102,8 @@ class Simulador:
     
     __method__="DuplicarAhorro"
     __params__= "Ninguno"
-    __returns__="Ahorros duplicados"
+    __returns__="Ninguno"
     __descriptions__="Este metodo permite duplicar los ahorros de la cuenta"
     def DuplicarAhorro(self):
         #aqui empieza mi método
-        return self.__Saldo*2 #temporal
+        self.__cuentaAhorros.ConsignarValor(self.__cuentaAhorros.DarSaldo())
