@@ -106,4 +106,4 @@ class Simulador:
     __descriptions__="Este metodo permite duplicar los ahorros de la cuenta"
     def DuplicarAhorro(self):
         #aqui empieza mi método
-        return self.__Saldo*2
+        return self.__Saldo*2 #temporal
